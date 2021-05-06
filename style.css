@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+/*navigation*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  grid-gap: 2em;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+  padding-right: 6em;
+}
+nav {
+  padding: 0;
+  margin-bottom: 0;
+  grid-template-columns: 40% 20% 40%;
+  align-items: center;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  align-items: baseline;
+}
+
+.banner {
+  margin-top: 0;
+  background-image: url(/img/Artboard\ 1.svg);
+  background-size: cover;
+  max-width: 100%;
+  padding: 8vw;
+  padding-left: 20vw;
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.covid {
+  font-size: 2.8em;
+  width: 30rem;
+  line-height: 3.4rem;
+}
+h1 {
+  font-size: 2.4em;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  margin: 1em;
+}
+p {
+  font-size: 1.2em;
+}
+
+.subheader {
+  text-align: center;
+  padding-top: 35px;
+}
+.about {
+  display: flex;
+  padding: 50px;
+  grid-column-gap: 50px;
+}
+.abouth3 {
+  text-align: center;
+}
+img {
+  max-width: 50%;
+}
+
+.info {
+  background-color: #edf8f5;
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.address {
+  margin: 0.2em;
+  margin-bottom: 1em;
+}
+.phone {
+  margin: 0.2em;
+  font-size: 1.2em;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 4px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+footer {
+  background-color: #d8ebe6;
+  height: 8em;
+}
+
+@media only screen and (max-width: 799px) {
+  .banner {
+    max-width: 100%;
+    padding: 2vw;
+  }
+  .covid {
+    font-size: 2em;
+    max-width: 100%;
+  }
+  .subheader {
+    font-size: 1em;
+    width: 100%;
+  }
+  .about {
+    display: block;
+    padding: 20px;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .info {
+    display: block;
+    padding: 0;
+  }
+  p {
+    font-size: 1em;
+  }
+  .addressphone {
+    padding: 1em;
+    padding-left: 80px;
+  }
+  .openinghours {
+    background-color: #d8ebe6;
+    padding: 1em;
+    justify-content: center;
+    padding-left: 80px;
+  }
+  ul {
+    padding-right: 30px;
+    padding-left: 20px;
+    display: inline-flex;
+  }
+}
